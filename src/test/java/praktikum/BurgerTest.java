@@ -82,7 +82,6 @@ public class BurgerTest {
         burger.removeIngredient(1);
         assertEquals("Ингредиент не удален", ingredientsSize - 1, burger.ingredients.size());
     }
-
     @Test
     public void getMovedIngredient() {
         Ingredient ingredientPosition = burger.ingredients.get(1);
